@@ -22,12 +22,14 @@
 .nav-bottom{
     height: 400px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-bottom-inner{
+    border: none;
     width: 500px;
     height: 250px;
-    margin: auto;
     display: flex;
     flex-flow: row wrap;
     background-color: aqua;
@@ -63,7 +65,7 @@
     background-color: green;
 }
 
-.login{
+.login, .register{
     width: 100px;
     height: 70px;
     background-color: green;
@@ -117,6 +119,23 @@ main{
     background-color: rgb(223, 139, 13);
 }
 
+.section-four-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-four-text{
+    width: 1000px;
+    height: 160px;
+    background-color: coral;
+}
+
+.section-four-img{
+    width: 1000px;
+    height: 340px;
+}
+
 footer{
     height: 500px;
     display: flex;
@@ -125,6 +144,7 @@ footer{
 
 .footer-top{
     display: flex;
+    justify-content: center;
     height: 400px;
     background-color: darkslategray;
 }
@@ -132,16 +152,31 @@ footer{
 .footer-top-inner{
     display: flex;
     flex-direction: row;
-    padding: 15px 25px;
+    justify-content: space-between;
+    padding: 25px 35px;
+    width: 1000px;
 }
 
 .footer-top-inner div{
-    width: 200px;
+    width: 150px;
     background-color: black;
+}
+
+#social{
+    width: 250px;
+    background-color: antiquewhite;
 }
 
 .footer-bottom{
         height: 100px;
         display: flex;
+        justify-content: center;
         background-color: aquamarine;
+}
+
+.footer-bottom-inner{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
 }
