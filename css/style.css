@@ -18,6 +18,20 @@
     justify-content: space-between;
 }
 
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+li{
+    width: 70px;
+    height: 30px;
+    background-color: darkorange;
+    text-align: center;
+    padding: 5px
+}
 
 .nav-bottom{
     height: 400px;
@@ -59,10 +73,13 @@
     background-color: green;
 }
 
-.links{
-    width: 400px;
+#links{
+    width: 500px;
     height: 70px;
     background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .login, .register{
