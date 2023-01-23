@@ -134,6 +134,25 @@ main{
 .section-four-img{
     width: 1000px;
     height: 340px;
+    background-color: darkolivegreen;
+}
+
+.section-five-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-five-text{
+    width: 500px;
+    height: 130px;
+    background-color: coral;
+}
+
+.section-five-download{
+    height: 70px;
+    width: 250px;
+    background-color: rgb(80, 80, 167);
 }
 
 footer{
