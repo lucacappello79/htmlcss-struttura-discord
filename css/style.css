@@ -5,17 +5,32 @@
     border: 1px solid red;
 }
 
-nav{
+.nav-top{
     height: 100px;
     display: flex;
     align-items: center;
 }
 
-.nav-inner{
+.nav-top-inner{
     width: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-between;
+}
+
+
+.nav-bottom{
+    height: 400px;
+    display: flex;
+}
+
+.nav-bottom-inner{
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
 }
 
 .logo{
@@ -34,4 +49,63 @@ nav{
     width: 100px;
     height: 70px;
     background-color: green;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one{
+    height: 400px;
+    background-color: darkgoldenrod;
+}
+
+.section-two{
+    height: 400px;
+    background-color: rgb(44, 137, 190);
+}
+
+.section-three{
+    height: 400px;
+    background-color: rgb(175, 14, 224);
+}
+
+.section-four{
+    height: 500px;
+    background-color: rgb(175, 207, 32);
+}
+
+.section-five{
+    height: 200px;
+    background-color: rgb(223, 139, 13);
+}
+
+footer{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top{
+    display: flex;
+    height: 400px;
+    background-color: darkslategray;
+}
+
+.footer-top-inner{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 25px;
+}
+
+.footer-top-inner div{
+    width: 200px;
+    background-color: black;
+}
+
+.footer-bottom{
+        height: 100px;
+        display: flex;
+        background-color: aquamarine;
 }
